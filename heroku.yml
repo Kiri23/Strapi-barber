@@ -2,4 +2,4 @@ build:
   docker:
     web: Dockerfile
 run:
-  web: NODE_ENV=production npm run build && NODE_ENV=production yarn start
+  web: yarn build && yarn start
