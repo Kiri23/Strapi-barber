@@ -109,5 +109,5 @@ coverage
 
 exports
 .cache
-build
+# build for now to heroku to work because i can not build on heroku
 package-lock.json
